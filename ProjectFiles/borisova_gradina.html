@@ -10,14 +10,64 @@
         </div>
         <div class = "info">
             <h1 class = "info-text"> <a  href="index.html"> Начало </a> </h1>
-            <h1 class = "info-text"> <a href="landmarks.html"> Забележителности </a> </h1>
+            <select onchange="window.location=this.options[this.selectedIndex].value" class = "info-text combo">
+                <option value="Забележителности">Забележителности</option>
+                <option value="alexander_nevski.html"> Александър Невски </a> </option>
+                <option value="borisova_gradina.html"> Борисова Градина </a> </option>
+                <option value="lavov_most.html"> Лъвов мост </a> </option>
+                <option value="orlov_most.html"> Орлов Мост </a></option>
+                <option value="naroden_theatre.html"> Народен театър </a></option>
+            </select>
+
             <h1 class = "info-text"> <a href="contacts.html"> Контакти </a> </h1>
         </div>
 
     </div>
 </head>
-
-<body>
+<body style = "background-color:#fdf1f2;">
+    <div class = "center">
+        <img height = 1000px width = 1500px src = "images/borisova gradina.jpg">
+        <div>
+            <p style = "font-size: 50px">
+                Борисова градина
+            </p>
+        </div>
+        <div>
+            <p style = "font-size: 34px; color: #929599">
+                <br>
+                Най-големият парк в София е
+                <br>
+                Борисовата градина, която
+                <br>
+                има площ от 3,02 кв. км. При
+                <br>
+                създаването й, градината
+                <br>
+                е разположена в покрайнини
+                <br>
+                на столицата, които с
+                <br>
+                разрастването на града влизат
+                <br>
+                в неговия разширен център, а
+                <br>
+                самата градина е разширена до
+                <br>
+                Ловния парк. Предимно частта
+                <br>
+                край центъра на столицата е
+                <br>
+                благоустроена, а след бул. „Яворов“
+                <br>
+                става лесопарк
+                <br>
+                <br>
+                <a style = "font-size: 25px" href = "https://www.google.com/maps/place/%D0%91%D0%BE%D1%80%D0%B8%D1%81%D0%BE%D0%B2%D0%B0+%D0%93%D1%80%D0%B0%D0%B4%D0%B8%D0%BD%D0%B0,+%D0%A1%D0%BE%D1%84%D0%B8%D1%8F/@42.6790302,23.3325445,15z/data=!3m1!4b1!4m6!3m5!1s0x40aa85baede558f3:0x15bf18759b21326b!8m2!3d42.6796105!4d23.3442295!16s%2Fg%2F11g9qgyngq?entry=ttu">
+                    Намери на картата 
+                </a>
+            </p>
+        </div>
+    </div>
 </body>
 
 
@@ -36,9 +86,9 @@
         <div class = "left">
             <p> <a href="index.html"> начало </a> </p>
             <br>
-            <p> <a href="landmarks.html"> забележителности </a> </p>
-            <br>
             <p> <a href="contacts.html"> контакти </a> </p>
+            <br>
+            <p> <a href="sitemap.html"> карта </a> </p>
         </div>
 
         <div class = "right">

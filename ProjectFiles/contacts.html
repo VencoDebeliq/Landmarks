@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <html>
+
 <head>
     <link rel = "stylesheet" href = "index_style.css">
 
@@ -10,15 +11,23 @@
         </div>
         <div class = "info">
             <h1 class = "info-text"> <a  href="index.html"> Начало </a> </h1>
-            <h1 class = "info-text"> <a href="landmarks.html"> Забележителности </a> </h1>
+            <select onchange="window.location=this.options[this.selectedIndex].value" class = "info-text combo">
+                <option value="Забележителности">Забележителности</option>
+                <option value="alexander_nevski.html"> Александър Невски </a> </option>
+                <option value="borisova_gradina.html"> Борисова Градина </a> </option>
+                <option value="lavov_most.html"> Лъвов мост </a> </option>
+                <option value="orlov_most.html"> Орлов Мост </a></option>
+                <option value="naroden_theatre.html"> Народен театър </a></option>
+            </select>
+
             <h1 class = "info-text"> <a href="contacts.html"> Контакти </a> </h1>
         </div>
 
     </div>
 </head>
 
-<body>
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<body style = "background-color:#fdf1f2;">
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 	
 	<div style = "
 			position: absolute;
@@ -71,7 +80,7 @@
 			<table style = "width: 100%" border = "3" height = "100"	width = "100" cellpadding = "2" cellspacing = "2">
 				<tr>
 					<td rowspan = "4">
-						<img src = "images/BusinessMan.jpg" height = "200" width = "200"> </img>
+						<img src = "images/Teodora.jpg" height = "200" width = "200"> </img>
 					</td>
 					
 					<td>
@@ -168,9 +177,9 @@
         <div class = "left">
             <p> <a href="index.html"> начало </a> </p>
             <br>
-            <p> <a href="landmarks.html"> забележителности </a> </p>
-            <br>
             <p> <a href="contacts.html"> контакти </a> </p>
+            <br>
+            <p> <a href="sitemap.html"> карта </a> </p>
         </div>
 
         <div class = "right">

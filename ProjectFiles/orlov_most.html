@@ -10,17 +10,68 @@
         </div>
         <div class = "info">
             <h1 class = "info-text"> <a  href="index.html"> Начало </a> </h1>
-            <h1 class = "info-text"> <a href="landmarks.html"> Забележителности </a> </h1>
+            <select onchange="window.location=this.options[this.selectedIndex].value" class = "info-text combo">
+                <option value="Забележителности">Забележителности</option>
+                <option value="alexander_nevski.html"> Александър Невски </a> </option>
+                <option value="borisova_gradina.html"> Борисова Градина </a> </option>
+                <option value="lavov_most.html"> Лъвов мост </a> </option>
+                <option value="orlov_most.html"> Орлов Мост </a></option>
+                <option value="naroden_theatre.html"> Народен театър </a></option>
+            </select>
+
             <h1 class = "info-text"> <a href="contacts.html"> Контакти </a> </h1>
         </div>
 
     </div>
 </head>
 
-<body>
+<body style = "background-color:#fdf1f2;">
+    <div class = "center">
+        <img height = 1000px width = 1500px src = "images/orlov_most.jpg">
+        <div>
+            <p style = "font-size: 50px">
+                Орлов мост
+            </p>
+        </div>
+        <div>
+            <p style = "font-size: 34px; color: #929599">
+                <br>
+                Орлов мост пресича река
+                <br>
+                Перловска и е едно от най-важните и оживени кръстовища в
+                <br>
+                центъра на София. Той носи това
+                <br>
+                име заради бронзовите статуи
+                <br>
+                на орли, които го украсяват и го
+                <br>
+                пазят символично. Той се намира
+                <br>
+                близо до Националния стадион
+                <br>
+                Васил Левски, Княжеската и
+                <br>
+                Борисовата градина. Когато
+                <br>
+                се влиза в София от изток по
+                <br>
+                „Цариградско шосе“, мостът е
+                <br>
+                първото кръстовище, през което
+                <br>
+                се преминава в истинския център
+                <br>
+                на града
+                <br>
+                <br>
+                <a style = "font-size: 25px" href = "https://www.google.com/maps/place/%D0%9E%D1%80%D0%BB%D0%BE%D0%B2+%D0%BC%D0%BE%D1%81%D1%82/@42.6905619,23.3348556,17z/data=!3m1!4b1!4m6!3m5!1s0x40aa8574027d2317:0x62e02f40355f32ea!8m2!3d42.690558!4d23.3374359!16zL20vMGRtZ2pt?entry=ttu">
+                    Намери на картата 
+                </a>
+            </p>
+        </div>
+    </div>
 </body>
-
-
 
 <footer>
     <div class = "upper-footer">
@@ -36,9 +87,9 @@
         <div class = "left">
             <p> <a href="index.html"> начало </a> </p>
             <br>
-            <p> <a href="landmarks.html"> забележителности </a> </p>
-            <br>
             <p> <a href="contacts.html"> контакти </a> </p>
+            <br>
+            <p> <a href="sitemap.html"> карта </a> </p>
         </div>
 
         <div class = "right">

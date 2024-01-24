@@ -54,6 +54,7 @@ html, body
     padding: 20px 0;
     margin: 10px;
     text-align: center;
+    border: none;
 }
 
 #hello
@@ -104,4 +105,9 @@ html, body
     padding: 0px 0;
     text-align: left;
     float: right;
+}
+
+.combo
+{
+    background-color: #e9ecea;
 }
