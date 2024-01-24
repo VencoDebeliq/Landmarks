@@ -94,9 +94,9 @@ html, body
 
 .center
 {
+	margin: auto;
     padding: 0px 0;
     text-align: center;
-    float: center;
 }
 
 .right
